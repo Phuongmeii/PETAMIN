@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://media.discordapp.net/attachments/828978839677173801/1173922958029361182/ang_nhap.png?ex=6565b7f3&is=655342f3&hm=d5c2e73fa7989ae48f0f5229cad4b0a415095dfcaba1ebaab8cf3e9f056a7003&=&width=1192&height=670" rel="shortcut icon">
+    
+    <title>Admin - PETAMIN</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- =============== THANH ĐIỀU HƯỚNG ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <div class="container">
+                    <a class="main-logo" href="ql_index.html">
+                        <img src="https://media.discordapp.net/attachments/828978839677173801/1173922958029361182/ang_nhap.png?ex=6565b7f3&is=655342f3&hm=d5c2e73fa7989ae48f0f5229cad4b0a415095dfcaba1ebaab8cf3e9f056a7003&=&width=1192&height=670" alt=""></a>
+                    <h1 class="brand-main">ADMIN PETAMIN</h1>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="ql_index.html">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Bảng điều khiển</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ql_khachhang.html">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="title">Khách hàng</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ql_sanpham.html">
+                        <span class="icon">
+                            <ion-icon name="bag-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sản phẩm</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ql_donhang.html">
+                        <span class="icon">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </span>
+                        <span class="title">Đơn hàng</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ql_dichvu.html">
+                        <span class="icon">
+                            <ion-icon name="paw-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dịch vụ</span>
+                    </a>
+                </li>
+
+                
+
+                <li>
+                    <a href="ql_blog.html">
+                        <span class="icon">
+                            <ion-icon name="newspaper-outline"></ion-icon>
+                        </span>
+                        <span class="title">Blogs</span>
+                    </a>
+                </li>
+
+            
+
+                <li>
+                    <a href="index.html">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Đăng xuất</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= SEARCH + USER ADMIN==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Tìm ở đây">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="assets/imgs/nhim.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- =======================CÁC THÔNG TIN TỔNG QUAN ================== -->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,504</div>
+                        <div class="cardName">Lượt xem</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">50</div>
+                        <div class="cardName">Sản phẩm đang bán</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">84</div>
+                        <div class="cardName">Bình luận</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">2.000.000 VND</div>
+                        <div class="cardName">Doanh thu</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================ HIỂN THỊ THÔNG TIN ĐƠN HÀNG ================= -->
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Danh sách đơn hàng</h2>
+                        <a href="#" class="btn">Xem tất cả</a>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Id</td>
+                                <td>Tên khách hàng</td>
+                                <td>Tên sản phẩm</td>
+                                <td>Loại sản phẩm</td>
+                                <td>Số lượng</td>
+                                <td>Giá</td>
+                                <td>Trạng thái</td>
+                                <td>Thanh toán</td>
+                                <td>Hình ảnh</td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Mai Phương</td>
+                                <td>Nón gà cho mèo</td>
+                                <td>Phụ kiện</td>
+                                <td>1</td>
+                                <td>50.000 VNĐ</td>
+                                <td><span class="status delivered">Đã giao</span></td>
+                                <td><span class="status delivered">Đã thanh toán</span></td>
+                                <td><img style="width: 100px; height: 100px;" src="https://cdn.discordapp.com/attachments/828978839677173801/1173966167124234301/vn-11134207-7r98o-lndube2r8lpp5e.png?ex=6565e031&is=65536b31&hm=97e250bd8412e25a004b7115142df2f64977685bed4821b9345d0852c74c8853&" alt=""></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>2</td>
+                                <td>Lan Anh</td>
+                                <td>Thức ăn cho chó Puddle</td>
+                                <td>Dinh dưỡng</td>
+                                <td>1</td>
+                                <td>350.000 VNĐ</td>
+                                <td><span class="status pending">Chờ duyệt</span></td>
+                                <td><span class="status pending">Chưa thanh toán</span></td>
+                                <td><img style="width: 100px; height: 100px;" src="https://media.discordapp.net/attachments/880343014193647666/1184938957604126751/image.png?ex=658dcb66&is=657b5666&hm=cca0171b4006eeb13ed36c406c7ff9bbf166e2ac76d5424625a2e04154edc2fb&=&format=webp&quality=lossless&width=397&height=396" alt=""></td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Kim Ngân</td>
+                                <td>Set quần áo hoàng thượng </td>
+                                <td>Phụ kiện</td>
+                                <td>1</td>
+                                <td>189.000 VNĐ</td>
+                                <td><span class="status return">Hủy</span></td>
+                                <td><span class="status pending">Chưa thanh toán</span></td>
+                                <td><img style="width: 100px; height: 100px;" src="https://media.discordapp.net/attachments/880343014193647666/1184939433124966570/image.png?ex=658dcbd7&is=657b56d7&hm=ad061e8471ee0e46814725167e84bde5c18aff246478b38019a960b0d591ec12&=&format=webp&quality=lossless&width=397&height=395" alt=""></td>
+                            </tr>
+                            
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- ================HIỂN THỊ KHÁCH HÀNG ================ -->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Khách hàng gần đây</h2>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/nhim.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Mai Phương <br> <span>Việt Nam</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="https://thuthuattienich.com/wp-content/uploads/2017/02/anh-dai-dien-facebook-doc-3.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Lan Anh <br> <span>Việt Nam</span></h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="https://thuthuattienich.com/wp-content/uploads/2017/02/anh-dai-dien-facebook-doc-3.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Thúy Quỳnh <br> <span>Việt Nam</span></h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="https://thuthuattienich.com/wp-content/uploads/2017/02/anh-dai-dien-facebook-doc-3.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Ngọc Yến <br> <span>Việt Nam</span></h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="https://thuthuattienich.com/wp-content/uploads/2017/02/anh-dai-dien-facebook-doc-3.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Kim Ngân <br> <span>Việt Nam</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

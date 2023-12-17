@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://media.discordapp.net/attachments/828978839677173801/1173922958029361182/ang_nhap.png?ex=6565b7f3&is=655342f3&hm=d5c2e73fa7989ae48f0f5229cad4b0a415095dfcaba1ebaab8cf3e9f056a7003&=&width=1192&height=670" rel="shortcut icon">
+    
+    <title>Đơn hàng - PETAMIN</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <div class="container">
+                    <a class="main-logo" href="ql_index.html">
+                        <img src="https://media.discordapp.net/attachments/828978839677173801/1173922958029361182/ang_nhap.png?ex=6565b7f3&is=655342f3&hm=d5c2e73fa7989ae48f0f5229cad4b0a415095dfcaba1ebaab8cf3e9f056a7003&=&width=1192&height=670" alt=""></a>
+                    <h1 class="brand-main">ADMIN PETAMIN</h1>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="ql_index.html">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Bảng điều khiển</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ql_khachhang.html">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="title">Khách hàng</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ql_sanpham.html">
+                        <span class="icon">
+                            <ion-icon name="bag-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sản phẩm</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ql_donhang.html">
+                        <span class="icon">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </span>
+                        <span class="title">Đơn hàng</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ql_dichvu.html">
+                        <span class="icon">
+                            <ion-icon name="paw-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dịch vụ</span>
+                    </a>
+                </li>
+
+                
+
+                <li>
+                    <a href="ql_blog.html">
+                        <span class="icon">
+                            <ion-icon name="newspaper-outline"></ion-icon>
+                        </span>
+                        <span class="title">Blogs</span>
+                    </a>
+                </li>
+
+            
+
+                <li>
+                    <a href="index.html">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Đăng xuất</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Tìm ở đây">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="assets/imgs/nhim.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- ================ Danh sách đơn hàng================= -->
+            <div class="detailsFix">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Danh sách đơn hàng</h2>
+                        <a href="#" class="btn">Xem tất cả</a>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Id</td>
+                                <td>Tên khách hàng</td>
+                                <td>SĐT </td>
+                                <td>Ngày đặt hàng</td>
+                                <td>Mã đơn hàng</td>
+                                <td>Số lượng sản phẩm</td>
+                                <td>Tổng tiền</td>
+                                <td>Thanh toán</td>
+                                <td>Trạng thái</td>
+                                <td>Chi tiết</td>
+                            
+                                <td></td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Mai Phương</td>
+                                <td>0798418319</td>
+                                <td>01/12/2023</td>
+                                <td>Pet0001</td>
+                                <td>2</td>
+                                <td>120.000 VNĐ</td>
+                                <td><span class="status delivered">Đã thanh toán</span></td>
+                                <td><span class="status delivered">Đã giao</span></td>
+                                <td> <a href="#"> Xem Chi tiết</a></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>2</td>
+                                <td>Lan Anh</td>
+                                <td>0132435532</td>
+                                <td>02/12/2023</td>
+                                <td>Pet0002</td>
+                                <td>3</td>
+                                <td>320.000 VNĐ</td>
+                                <td><span class="status delivered">Đã thanh toán</span></td>
+                                <td><span class="status pending">Đang giao hàng</span></td>
+                                <td> <a href="#"> Xem Chi tiết</a></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Kim Ngân</td>
+                                <td>0218399422</td>
+                                <td>01/12/2023</td>
+                                <td>Pet0003</td>
+                                <td>1</td>
+                                <td>50.000 VNĐ</td>
+                                <td><span class="status delivered">Đã thanh toán</span></td>
+                                <td><span class="status delivered">Đã giao</span></td>
+                                <td> <a href="#"> Xem Chi tiết</a></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Thúy Quỳnh</td>
+                                <td>0212344444</td>
+                                <td>01/12/2023</td>
+                                <td>Pet0004</td>
+                                <td>1</td>
+                                <td>100.000 VNĐ</td>
+                                <td><span class="status delivered">Đã thanh toán</span></td>
+                                <td><span class="status pending">Đang giao</span></td>
+                                <td> <a href="#"> Xem Chi tiết</a></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Ngọc Yến</td>
+                                <td>0212344444</td>
+                                <td>01/12/2023</td>
+                                <td>Pet0005</td>
+                                <td>5</td>
+                                <td>620.000 VNĐ</td>
+                                <td><span class="status pending">Chưa thanh toán</span></td>
+                                <td><span class="status pending">Đang giao</span></td>
+                                <td> <a href="#"> Xem Chi tiết</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
